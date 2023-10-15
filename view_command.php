@@ -18,6 +18,6 @@ if ($result->num_rows > 0) {
     echo "沒有找到指令";
 }
 
-echo "<p><a href=''>返回原本的網頁</a></p>";
+echo "<p><a href='http://.../arDB/simple_control/main.html'>返回原本的網頁</a></p>";
 $mysqli->close();
 ?>

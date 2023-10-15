@@ -16,6 +16,6 @@ if ($mysqli->query($query) === TRUE) {
 } else {
     echo "Data update UNSECCESSFULLY： " . $mysqli->error;
 }
-echo "<p><a href=''>返回原本的網頁</a></p>";
+echo "<p><a href='http://.../arDB/simple_control/main.html'>返回原本的網頁</a></p>";
 $mysqli->close();
 ?>
